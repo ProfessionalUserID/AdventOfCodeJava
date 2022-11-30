@@ -8,16 +8,24 @@ public class Main {
         System.out.println("task1");
         File inputFile = new File("input.txt");
         try {
+            int total = 0;
         Scanner scan = new Scanner(inputFile);
         while (scan.hasNext()){
-            String x = scan.nextLine();
-            System.out.println(x);
+            int x = scan.nextInt();
+            int y = scan.nextInt();
+            if (x > y){
+                total++;
+            }
+
         }
+        System.out.println(total);
         scan.close();
-    } catch (FileNotFoundException e) {
+    }
+        catch (FileNotFoundException e) {
         System.out.println("An error occurred.");
         e.printStackTrace();
     }
+
     }
 
 
