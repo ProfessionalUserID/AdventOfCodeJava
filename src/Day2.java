@@ -18,7 +18,7 @@ public class Day2 {
         while (scan.hasNext()) {
             String line = scan.nextLine();
 
-            System.out.println(line);
+            System.out.println(line.charAt(0)+" "+line.charAt(2));
 
             char first = line.charAt(0);
             char second = line.charAt(2);
@@ -35,10 +35,10 @@ public class Day2 {
                 total += (rock+draw);
 
             } else if (first == A && second == Y) {
-                total += (rock+loss);
+                total += (rock+win);
 
             } else if (first == A && second == Z) {
-                total += (rock+win);
+                total += (rock+loss);
 
             } else if (first == B && second == X) {
                 total += (paper+loss);
