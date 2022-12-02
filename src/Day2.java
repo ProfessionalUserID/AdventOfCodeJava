@@ -35,25 +35,25 @@ public class Day2 {
                 total += (rock+draw);
 
             } else if (first == A && second == Y) {
-                total += (rock+win);
+                total += (paper+win);
 
             } else if (first == A && second == Z) {
-                total += (rock+loss);
+                total += (scissors+loss);
 
             } else if (first == B && second == X) {
-                total += (paper+loss);
+                total += (rock+loss);
 
             } else if (first == B && second == Y) {
                 total += (paper+draw);
 
             } else if (first == B && second == Z) {
-                total += (paper+win);
-
-            } else if (first == C && second == X) {
                 total += (scissors+win);
 
+            } else if (first == C && second == X) {
+                total += (rock+win);
+
             } else if (first == C && second == Y) {
-                total += (scissors+loss);
+                total += (paper+loss);
 
             } else if (first == C && second == Z) {
                 total += (scissors+draw);
