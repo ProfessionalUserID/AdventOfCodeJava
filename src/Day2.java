@@ -31,32 +31,32 @@ public class Day2 {
             char Z = "Z".charAt(0);
 
 
-            if (first == A && second == X) {
-                total += (rock+draw);
-
-            } else if (first == A && second == Y) {
-                total += (paper+win);
-
-            } else if (first == A && second == Z) {
+            if (first == A && second == X) {    //Rock + need to lose
                 total += (scissors+loss);
 
-            } else if (first == B && second == X) {
+            } else if (first == A && second == Y) { //Rock + need to draw
+                total += (rock+draw);
+
+            } else if (first == A && second == Z) { //Rock + need to win
+                total += (paper+win);
+
+            } else if (first == B && second == X) { //Paper + need to lose
                 total += (rock+loss);
 
-            } else if (first == B && second == Y) {
+            } else if (first == B && second == Y) { //Paper + need to draw
                 total += (paper+draw);
 
-            } else if (first == B && second == Z) {
+            } else if (first == B && second == Z) { //Paper + need to win
                 total += (scissors+win);
 
-            } else if (first == C && second == X) {
-                total += (rock+win);
-
-            } else if (first == C && second == Y) {
+            } else if (first == C && second == X) { //Scissors + need to lose
                 total += (paper+loss);
 
-            } else if (first == C && second == Z) {
+            } else if (first == C && second == Y) { //Scissors + need to draw
                 total += (scissors+draw);
+
+            } else if (first == C && second == Z) { //Scissors + need to win
+                total += (rock+win);
 
             } else {
                 System.out.println("Something broke oopsie woopsie");
