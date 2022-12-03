@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbf8bb4c-8d9c-4d3c-8939-913bbd03e5f6" name="Changes" comment="Part 1 working">
+    <list default="true" id="cbf8bb4c-8d9c-4d3c-8939-913bbd03e5f6" name="Changes" comment="reads a file">
+      <change afterPath="$PROJECT_DIR$/src/Day3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Day2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Day2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +37,7 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -46,16 +45,9 @@
       <recent name="C:\Users\joshu\IdeaProjects\AdventOfCodeJava" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Day2">
+  <component name="RunManager" selected="Application.Day1">
     <configuration name="Day1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Day1" />
-      <module name="AdventOfCodeJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Day2" />
       <module name="AdventOfCodeJava" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -70,7 +62,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Day2" />
         <item itemvalue="Application.Day1" />
         <item itemvalue="Application.Main" />
       </list>
@@ -92,35 +83,7 @@
       <option name="project" value="LOCAL" />
       <updated>1669786674979</updated>
     </task>
-    <task id="LOCAL-00002" summary="Create day2 file">
-      <created>1669960597614</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1669960597614</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Day  not entirely working yet. Too low">
-      <created>1669968978576</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1669968978576</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Update">
-      <created>1669969392299</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1669969392299</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Part 1 working">
-      <created>1669975306857</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1669975306857</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,10 +100,6 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="reads a file" />
-    <MESSAGE value="Create day2 file" />
-    <MESSAGE value="Day  not entirely working yet. Too low" />
-    <MESSAGE value="Update" />
-    <MESSAGE value="Part 1 working" />
-    <option name="LAST_COMMIT_MESSAGE" value="Part 1 working" />
+    <option name="LAST_COMMIT_MESSAGE" value="reads a file" />
   </component>
 </project>
